@@ -1,2 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
 
-/* Your CSS Code here. */
+}
+
+.box{
+    width:70px;
+    height: 70px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 900;
+    flex-wrap: wrap;
+
+}
+
+#item1{
+    display: flex;
+    justify-content: space-evenly;
+    order: 3 1 2;
+
+}
+
+#item-2{
+    display: flex;
+
+}
+
+#I{
+    background-color: red;
+    order:2;
+}
+
+#II{
+    background-color: blue;
+    order: 3;
+
+}
+
+#III{
+
+    background-color: green;
+
+}
+
+#a{
+    background-color: red;
+    order: 6;
+}
+
+#b{
+    background-color: blue;
+    order: 7;
+}
+
+#c,#d,#e,#f,#g{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
